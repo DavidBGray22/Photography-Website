@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Baum Gray Photography</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Crimson+Text&family=Gruppo&family=Hina+Mincho&family=Major+Mono+Display&family=Megrim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/Users/davidgray/Desktop/F I L M/Senior shows photoz/DavidBaumbooGrayLogocopy.jpg" width="200" height="200">
+        <h1><a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/Index.html">David Baum Gray Photography</a></h1>
+    </header>
+    <main>
+    <nav>
+      <a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/Index.html" class="nav-link">Home</a>  
+      <a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/About.html" class="nav-link">About</a>
+            <button class="dropdown-btn">Film   
+                <span class="fa fa-caret-down">&#x25BC;</span>
+              </button>
+              <div class="dropdown-container">
+                <a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/Japan.html">Japan</a>
+                <a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/Alaska.html">Alaska</a>
+                <a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/Colorado.html">Colorado</a>
+                <a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/Hawaii.html">Hawaii</a>
+                <a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/NCarolina.html">N.Carolina</a>
+                <a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/NDakota.html">N.Dakota</a>
+              </div>
+              <button class="dropdown-btn">Digital 
+                <span class="fa fa-caret-down">&#x25BC;</span>
+              </button>
+              <div class="dropdown-container">
+                <a href="#">East Coast</a>
+                <a href="#">Desert</a>
+                <a href="#">Portraits</a>
+              </div>
+              <a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/Shows.html" class="nav-link">Shows</a> 
+              <a href="/Users/davidgray/Desktop/CodeCademy /Photographer Website/Contact.html" class="nav-link">Contact</a>
+            <a href="https://www.instagram.com/david_b_gray/">Instagram</a>
+
+    </nav>
+    <div class="top" id="top"></div>
+    <div class="picWrapper" id="pictures">
+
+   
+    <img src="/Users/davidgray/Desktop/F I L M/Portfolio website/NCarolina/BlackSkimmers copy.jpg" style="width:30%" onclick="openModal();currentSlide(0)" class="hover-shadow cursor">
+   
+    <img src="/Users/davidgray/Desktop/F I L M/Portfolio website/NCarolina/OcracokeSunset copy.jpg" style="width:30%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+   
+    <img src="/Users/davidgray/Desktop/F I L M/Portfolio website/NCarolina/OcracokeFlock copy.jpg" style="width:30%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    
+    <img src="/Users/davidgray/Desktop/F I L M/Portfolio website/NCarolina/GooseCreek copy.jpg" style="width:30%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img src="/Users/davidgray/Desktop/F I L M/Portfolio website/NCarolina/OcracokeIsland copy.jpg" style="width:35%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    
+
+  </div>
+  </div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="" style="width:60%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+
+</div>
+  </div>
+
+    
+    </main>
+    
+    
+    <footer>
+      <a href="#top">Back to Top &uarr;</a>
+        <div class="contact" id="contact">
+            <div class="footer">
+            <h2>Contact</h2>
+            <h5>emaildavidbgray@gmail.com</h5>
+
+        <div class="copyright">
+          <h5>DBG Enterprises 2022</h5>
+          <h5>Website created by David Gray</h5>
+          </div>
+        </div>
+        </div>
+    </footer>
+    <script  src="main.js"></script>
+</body>
+</html>
